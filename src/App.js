@@ -5,9 +5,13 @@
 */
 
 // Import the state hook
-import React from 'react';
+import React, {useState} from 'react';
 // Import the Posts (plural!) and SearchBar components, since they are used inside App component
 // Import the dummyData
+import Comments from './components/Comments/Comments';
+import LikeSection from './components/Posts/LikeSection';
+import PostHeader from './components/Posts/PostHeader';
+import dummyData from './dummy-data'
 import './App.css';
 
 const App = () => {
